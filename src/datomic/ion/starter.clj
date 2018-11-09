@@ -17,6 +17,7 @@ locally, fill in the correct values in the map."
   (memoize #(d/client {:server-type :ion
                        :region "eu-west-1"
                        :system "datomic1"
+                       :query-group "datomic1"
                        :endpoint "http://entry.datomic1.eu-west-1.datomic.net:8182/"
                        :proxy-port 8182})))
 

@@ -13,7 +13,5 @@
          datomic.ion.starter/items-by-type-web
          datomic.ion.starter/get-tutorial-schema    
          ]            
- :lambdas {:echo
-            }}
  :app-name "datomic1"}
 

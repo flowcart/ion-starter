@@ -168,6 +168,7 @@ should be featured in a promotion."
          (= (:db/ident type) :hat))))
 
 (defn helloworld
-  "I don't do a whole lot ... yet."
-  (pp-str "Hello, World!"))
+  "Lambda ion that simply echoes its input"
+  [{:keys [context input]}]
+  input)
 

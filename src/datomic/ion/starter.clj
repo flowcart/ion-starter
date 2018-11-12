@@ -169,6 +169,6 @@ should be featured in a promotion."
 
 (defn helloworld
   "Lambda ion that simply echoes its input"
-  [{:keys [context input]}]
-  input)
+  "Hello World")
+
 
